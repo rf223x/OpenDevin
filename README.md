@@ -56,7 +56,7 @@ export WORKSPACE_BASE=$(pwd)/workspace;
 ```
 
 > [!WARNING]  
-> OpenDevin runs bash commands within a Docker sandbox, so it should not affect your machine. 
+> OpenDevin runs bash commands within a Docker sandbox, so it should not affect your machine. ## Docker alternative?  
 > But your workspace directory will be attached to that sandbox, and files in the directory may be modified or deleted.
 
 ```bash
